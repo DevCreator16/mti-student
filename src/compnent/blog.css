@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-exlpor {
+  background: #283C55;
+}
+
+.explor {
+  color: #FFF;
+  font-family: Fuggles;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.nav-explor {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.nav-explor:hover {
+  color: white;
+}
+
+@media (max-width: 858px) {
+  .nav-explor {
+    display: grid;
+    justify-content: center;
+    gap: 5px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.line {
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  color: white;
+}
+
+.myGallery1 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.myGallery1 img {
+  width: 80%;
+}
+
+/*
+    And here are some declarations for the image caption.
+    Just hover over one of the last 5 images to see it.
+  */
+
+.myGallery1 .item {
+  position: relative;
+  overflow: hidden;
+}
+
+.myGallery1 .item img {
+  vertical-align: middle;
+}
+
+.myGallery1 .caption {
+  margin: 0;
+  padding: 1em;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+  transition: transform 0.5s;
+  transform: translateY(100%);
+  background: rgba(0, 0, 0, 0.7);
+  color: rgb(255, 255, 255);
+}
+
+.myGallery1 .item:hover .caption {
+  transform: translateY(0%);
+}
+
+/*
+    The rest is only styling for this example page
+  */
+
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;900&display=swap");
+
+
+
+.myGallery1 {
+  font-size: 1rem;
+}
+
+.regis {
+  width: 472.669px;
+  height: 40px;
+  margin: 10px;
+  background: #FF912C;
+  color: white;
+  border: 0.5px solid white;
+  padding: 5px;
+}
+
+.info-form {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.form-design {
+  background: #FF912C;
+  width: auto;
+}
+
+.form-button {
+  background: #FF912C;
+  padding: 10px;
+  margin: 10px;
+  width: 20%;
+  color: white;
+  border: 0.5px solid white;
+}
+
+.text-area {
+  width: 452.669px;
+}
+.blog-edit{
+  display: flex;
+  justify-content: center;
+}
+.popup-blog{
+  padding: 0px;
+  height: auto;
+  
+}
+.content{
+  width: 300px;
+}
+.title-blog{
+  outline: none;
+  color: black;
+}
+.des-blog{
+  width: 90%;
+  outline: none;
+  color: black;
+  margin-top: 5px;
+}
+.edit-Blog{
+  padding: 10px 20px;
+  background-color:#FF912C;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+}
+
+.edit-Blog:hover{
+  background-color: #283C55;
+  border:1px solid #FFF;
+}
+[role=tooltip].popup-content {
+  width: 300px;
+  box-shadow: 0 0 3px rgba(0,0,0,.16);
+  border-radius: 5px;
+}
+.blog-newTilte{
+  color: #FFF;
+font-family: Montserrat;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 157.895% */
+margin-top: 10px;
+}
+.blog-desnew{
+  color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.blogCover{
+  width: 100%;
+  
+}
+
+@media (max-width: 858px) {
+  .regis {
+    width: auto;
+    height: 40px;
+    margin: 10px;
+    background: #FF912C;
+    color: white;
+    border: 0.5px solid white;
+    padding: 5px;
+  }
+
+  .form-design {
+    background: #FF912C;
+    width:auto;
+  }
+
+  .text-area {
+    width: auto;
+  }
+
+  .form-button {
+    background: #FF912C;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    color: white;
+    border: 0.5px solid white;
+  }
+
+}

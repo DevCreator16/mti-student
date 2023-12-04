@@ -1,0 +1,70 @@
+.fillback {
+    background-image: url('../asset/USER AUTHENTICATION BG.png');
+    background-size: cover;
+    width: 100%;
+    height: 107vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.otp-verification-container {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.email-opt {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.center-otp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opt-text {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5.597px;
+    border: 1px solid #FFF;
+    color: white;
+    outline: none;
+    background: rgba(255, 255, 255, 0.20);
+    text-align: center;
+
+
+}
+
+.button9 {
+    margin-top: 15px;
+    border-radius: 5.597px;
+    background: #4FCB8D;
+    cursor: pointer;
+    color: #283C55;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    max-width: 100%;
+    border: none;
+    padding: 15px 50px;
+}
+
+.button9:hover {
+    background: #FF912C;
+    color: white;
+}

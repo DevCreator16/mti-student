@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background-image1 {
+
+  background-image: url('../asset/USER AUTHENTICATION BG.png');
+  background-size: cover;
+  width: 100%;
+  height: 107vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+.email{
+  outline: none;
+}
+
+.logo-des {
+  font-size: 18px;
+  font-family: Montserrat;
+  color: white;
+  font-weight: 500;
+  line-height: 27.08px;
+  margin-left: 873px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .logo-des {
+    margin-left: 70px;
+    font-size: 12px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .h {
+    width: auto;
+  }
+
+  .email {
+    width: 80%;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-top: 40px;
+  }
+}
+
+.title {
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.email {
+  width: 500px;
+  height: 50px;
+
+  margin-top: 40px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+
+.submit {
+  width: 500px;
+  height: 50px;
+
+  margin-top: 40px;
+
+  background: rgba(255, 145, 44, 0.6);
+  color: white;
+  border: 1px solid white;
+}
+
+.submit:hover {
+  background: linear-gradient(0deg, #FF912C, #FF912C);
+  color: white;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .submit {
+    width: 307px;
+
+    background: rgba(255, 145, 44, 0.6);
+    color: white;
+    border: 1px solid white;
+    margin-left: -3px;
+    margin-top: 40px;
+  }
+}
+
+.email-center {
+  display: flex;
+  justify-content: center;
+}
+
+.for {
+  color: white;
+
+  font-size: 10px;
+  margin-top: 10px;
+  text-align: left;
+  font-family: Montserrat;
+}
+
+.di {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .di {
+    width: 80%;
+  }
+}
+
+.not {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 10px;
+  margin-top: 10px;
+
+  font-family: Montserrat;
+}
+
+@media only screen and (max-width: 600px) {
+  .for {
+    margin-left: 30px;
+  }
+}
+
+::placeholder {
+  padding: 10px;
+}

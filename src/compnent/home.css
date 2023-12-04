@@ -1,0 +1,205 @@
+.back-home {
+    background: #283C55;
+
+}
+
+.home1-nav {
+    background: transparent;
+
+}
+
+.bak {
+    background-color: transparent;
+}
+
+.home1-nav {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+
+.home-link {
+    color: rgba(255, 255, 255, 0.30);
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.home-link:hover {
+    color: #fff;
+}
+
+.port-img {
+    display: grid;
+}
+
+.p-img {
+    width: 100%;
+}
+
+.p-imgbtn {
+    border-radius: 0px 0px 12px 12px;
+    background: #FF912C;
+    color: black;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+.p-imgbtn:hover{
+    border-radius: 0px 0px 12px 12px;
+    background: #FF912C;
+    color: black;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.img-borger {
+    border-radius: 20px;
+    border: 1px solid #EBF1FF;
+    background: #37495F;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.03);
+    padding: 10px;
+    width: 100%;
+}
+
+.text-img {
+    display: flex;
+}
+
+.boot-img {
+    width: 20%;
+}
+
+.bootcamp-pre {
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.group-info1 {
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+.group-name {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.groups {
+
+    border-radius: 20px;
+    border: 1px solid #EBF1FF;
+    background: #37495F;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.03);
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.name-person {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #283C55;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.date-time {
+    margin-top: 5px;
+    display: block;
+    color: #283C55;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.name-icon {
+    display: flex;
+}
+
+.border-white {
+    border-radius: 20px;
+    border: 1px solid #EBF1FF;
+    background: #FFF;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.03);
+    padding: 20px;
+}
+
+.cross-fles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.announcement {
+    color: #283C55;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.group-pic1 {
+    display: flex;
+}
+
+.nn {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.active-not {
+    margin-top: 10px;
+    display: flex;
+}
+
+.status-active {
+    margin-right: 10px;
+    color: #4FCB8D;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+}
+
+.group-mem {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat-groups {
+    border-radius: 20px;
+    border: 0.5px solid rgba(133, 163, 171, 0.50);
+    background: #37495F;
+    box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.20);
+    padding: 20px;
+    /* Adjust the width as needed */
+    height: 700px;
+    /* Adjust the height as needed */
+    overflow: auto;
+}

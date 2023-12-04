@@ -1,0 +1,646 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(225deg,
+            #34465c 0%,
+            white 30%,
+            white 60%,
+            #34465c 90%) no-repeat;
+}
+
+.container {
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.back-button-div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.back-button-div a {
+    text-decoration: none;
+}
+
+.back-button-div h5 {
+    margin-right: 2px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+}
+
+.back-button {
+    display: inline-block;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #34465c96;
+}
+
+.back-link {
+    color: #34465c96;
+    margin-right: 5px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.course-title {
+    margin-top: 34px;
+}
+
+.course-title h2 {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.54px;
+}
+
+.course-info {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.course-info h2 {
+    margin-top: 3px;
+    color: #283c55;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.course-info-1 {
+    gap: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.course-info-2 {
+    gap: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.course-info-3 {
+    gap: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.zoom-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: 0.5px solid #283c55;
+    border-radius: 10px;
+}
+
+.zoom-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.zoom-logo img {
+    width: 80%;
+}
+
+.zoom-link a {
+    text-decoration: none;
+}
+
+.click-here {
+    color: #283c55;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.time {
+    color: #ff912c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.total-content {
+    width: 100%;
+    border: 0.5px solid #283c55;
+    border-radius: 10px;
+    height: 100%;
+    background: rgba(40, 60, 85, 0.2);
+}
+
+.total-content h3 {
+    padding: 5px;
+    color: #283c55;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.total-content h2 {
+    padding: 5px;
+    margin-top: 5px;
+    color: #283c55;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.progress-bar {
+    margin: 5px;
+    width: 70%;
+    background-color: #ffffff;
+    height: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #34465c;
+    transition: width 0.3s ease-in-out;
+}
+
+.week-content {
+    margin-top: 20px;
+    /* border: 1px solid #283c55; */
+}
+
+.week-list {
+    width: 100%;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #283c55;
+}
+
+.week-list li {
+    padding: 10px;
+    height: 90px;
+    list-style: none;
+    border: 1px solid #c2c2c2;
+    border-left: 5px solid #c2c2c2;
+}
+
+.week-list h2 {
+    margin-top: 10px;
+    color: rgba(40, 60, 85, 0.6);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.week-list p {
+    margin-top: 13px;
+    color: rgba(40, 60, 85, 0.6);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.active-week {
+    background-color: #283c55;
+    color: #fff;
+    border-left: 5px solid #ff912c !important;
+}
+
+.active-week h2 {
+    color: #fff;
+}
+
+.active-week p {
+    color: #fff;
+}
+
+.week h3 {
+    margin-top: 10px;
+    color: #333;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.54px;
+}
+
+.items-required {
+    margin-top: 10px;
+    margin: 0;
+    width: 100%;
+    border: 1px solid #283c55;
+    border-radius: 10px;
+}
+
+.items-required-title {
+    background: rgba(133, 163, 171, 0.3);
+}
+
+.items-required-title h2 {
+    padding: 15px;
+    margin: 0;
+    color: #283c55;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.38px;
+    text-transform: capitalize;
+}
+
+.items-required-text {
+    border-top: 1px solid #283c55;
+}
+
+.items-required-text h2 {
+    padding: 15px;
+    margin: 0;
+    color: #283c55;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    text-transform: capitalize;
+}
+
+.lecture-design {
+    margin: 15px 0px;
+}
+
+.segment-title {
+    margin: 15px 0px;
+    color: #283C55;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.38px;
+}
+
+.segment-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.segment-text {
+    margin: 15px 0px;
+    color: #283C55;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.upload-file {
+    margin-top: 10px;
+    width: 90%;
+    border: 1px solid #283c55;
+    border-radius: 10px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-file-title {
+    background: rgba(133, 163, 171, 0.3);
+}
+
+.upload-file-title h2 {
+    padding: 15px;
+    color: #283c55;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.38px;
+    text-transform: capitalize;
+}
+
+.upload-file-text h3 {
+    text-align: center;
+    color: #283c55;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17.429px;
+}
+
+.upload-file-browse {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #283c55;
+}
+
+.upload-file-button {
+    display: flex;
+    justify-content: center;
+}
+
+.upload-file-button button {
+    padding: 15px;
+    color: #ffffff;
+    width: 90%;
+    margin: 20px 0px;
+    border-radius: 5px;
+    background: rgba(40, 60, 85, 0.60);
+
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.919px;
+}
+
+.lessons {
+    margin-top: 10px;
+    width: 90%;
+    border: 1px solid #283c55;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.lessons-title {
+    background: rgba(133, 163, 171, 0.3);
+}
+
+.lessons-title h2 {
+    padding: 15px;
+    color: #283c55;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.38px;
+    text-transform: capitalize;
+}
+
+.lessons-text {
+    border-top: 1px solid #283c55;
+}
+
+.lessons-text-1 h2 {
+    padding: 15px;
+    color: rgba(40, 60, 85, 0.70);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.lessons-text-2 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.lessons-text-2 h3 {
+    margin-left: 15px;
+    margin-top: -15px;
+    padding: 15px;
+    display: flex;
+    width: 85px;
+    height: 22px;
+    padding: 1px 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border-radius: 2px;
+    background: rgba(255, 145, 44, 0.30);
+
+    color: #FF912C;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.lessons-text-2 h2 {
+    margin-top: -15px;
+    padding: 15px;
+    color: rgba(40, 60, 85, 0.50);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.faLock {
+    margin-top: -15px;
+}
+
+.week-nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prev-week {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.prev-week a {
+    text-decoration: none;
+    color: #283c5580;
+}
+
+.prev-week h2 {
+    font-family: Montserrat;
+    font-size: 17.909px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.next-week {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 5.597px;
+    border: 1px solid rgba(40, 60, 85, 0.7);
+    background: rgba(255, 145, 44, 0.8);
+    padding: 15px;
+}
+
+.next-week a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.next-week h2 {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 17.909px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.358px;
+}
+
+
+@media (max-width: 575px) {
+    body{
+        background: white;
+    }
+
+    .upload-file{
+        width: 100%;
+    }
+
+    .upload-file-buttob button{
+        width: 100%;
+    }
+
+    .lessons{
+        width: 100%;
+    }
+
+    .total-content{
+        margin-top: 30px;
+    }
+
+    .zoom-link{
+        margin-top: 15px;
+    }
+
+    .week-list{
+        margin-top: 30px;
+    }
+    .progress-bar {
+        width: 98%;
+    }
+    .week-nav {
+        margin-top: 20px;
+        display: block;
+        justify-content: space-between;
+    }
+    .next-week {
+        margin-top: 15px;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767px) {
+    .upload-file{
+        width: 100%;
+    }
+
+    .upload-file-buttob button{
+        width: 100%;
+    }
+
+    .lessons{
+        width: 100%;
+    }
+
+    .total-content{
+        margin-top: 30px;
+    }
+
+    .zoom-link{
+        margin-top: 15px;
+    }
+
+    .week-list{
+        margin-top: 30px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .upload-file{
+        width: 100%;
+    }
+
+    .upload-file-buttob button{
+        width: 100%;
+    }
+
+    .lessons{
+        width: 100%;
+    }
+
+    .total-content{
+        margin-top: 15px;
+    }
+
+    .zoom-link{
+        margin-top: 15px;
+    }
+
+    .week-list{
+        margin-top: 15px;
+    }
+  }
+  
+  
+  

@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+background-image: url('../asset/LEARNER\ DASHBOARD\ -\ HOME\ BG.png');
+background-size: cover;
+width: 100%;
+height: auto;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+.container {
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.tray {
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.welcome-tray {
+    overflow: hidden;
+    padding: 30px 50px;
+  background-image: url('../asset/WELCOME\ BAR.png');
+    color: white;
+    border-radius: 20px;
+    
+}
+
+.welcome-tray h2 {
+    background-color: transparent;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.welcome-tray p {
+    background-color: transparent;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.your-stats {
+    width: 90%;
+    margin: 70px auto;
+}
+
+.your-stats h2 {
+    background-color: transparent;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.stat-box {
+    margin-top: 10px;
+    background-color: rgb(174, 174, 174);
+    padding: 25px 25px;
+    border-radius: 10px;
+}
+
+.stat-box h3 {
+    font-family: Montserrat;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.stat-box h4 {
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.dasboard-divider {
+    width: 90%;
+    margin: auto;
+}
+
+.course-summary {
+    padding: 10px;
+    margin-top: 25px;
+    border: 0.5px solid #333333;
+    border-radius: 10px;
+}
+
+.course-summary li {
+    list-style: none;
+    margin-top: 5px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.summary-divider {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-top: 5px solid #85A3AB;
+    border-radius: 10%;
+}
+
+.assigned-courses-card {
+    overflow: hidden;
+    margin-top: 15px;
+    border: 1px solid #85A3AB;
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h5 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #283C55;
+    margin-bottom: 5px;
+}
+
+.card-body p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #283C55;
+    margin-bottom: 5px;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: #283C55;
+    display: flex;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #283C554D;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.group-title {
+    margin-top: 20px;
+}
+
+.group-list {
+    display: flex;
+    align-items: center;
+}
+
+.group-list img {
+    border-radius: 10px;
+    width: 40%;
+}
+
+.group-info {
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+    color: #283C5566;
+    margin-bottom: 15px;
+}
+
+.fa {
+    margin-top: 3px;
+}
+
+.group-list h2 {
+    margin-left: 10px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.view-all {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #283C55;
+}
+
+@media (max-width: 575px) {
+    body {
+        width: 100%;
+        background: white;
+    }
+
+    .welcome-tray h2 {
+        font-size: 30px;
+        line-height: normal;
+
+    }
+
+    .welcome-tray p {
+        font-size: 20px;
+    }
+
+    .welcome-tray {
+        overflow: hidden;
+        padding: 20px 30px;
+        background-color: #283C55;
+        color: white;
+        border-radius: 20px;
+    }
+
+    .your-stats {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .course-summary {
+        padding: 10px;
+        margin-top: 20px;
+        border: 0.5px solid #333333;
+        border-radius: 10px;
+    }
+
+    .course-summary-title {
+        margin-top: 20px;
+    }
+
+    .group-list h2 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .welcome-tray h2 {
+        font-size: 40px;
+        line-height: normal;
+
+    }
+
+    .welcome-tray p {
+        font-size: 20px;
+    }
+
+    .welcome-tray {
+        overflow: hidden;
+        padding: 20px 30px;
+        background-color: #283C55;
+        color: white;
+        border-radius: 20px;
+    }
+
+    .your-stats {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .course-summary {
+        padding: 10px;
+        margin-top: 20px;
+        border: 0.5px solid #333333;
+        border-radius: 10px;
+    }
+
+    .course-summary-title {
+        margin-top: 20px;
+    }
+
+    .group-list h2 {
+        font-size: 20px;
+    }
+
+    .card-body h5 {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .card-body p {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .course-summary li {
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+}
+

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.lock{
+  position: absolute;
+  padding: 10px;
+  right: 0;
+  top: 0;
+  background: rgba(255, 145, 44, 0.70);
+  border-radius: 5px 0px 0px 5px;
+  
+}
+.world{
+  position: absolute;
+  border-radius: 0px 5px 5px 0px;
+background: rgba(255, 145, 44, 0.70);
+padding: 10px;
+height: 40px;
+color: #283C55;
+font-size: 16px;
+top: 0;
+
+}
+.bg_image {
+
+  background-image: url('../asset/LEARNER DASHBOARD - HOME BG.png');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.inner-dash {
+  background-color: white;
+  border-radius: 8px;
+  margin: 0 auto;
+  height: 90%;
+  width: 95%;
+  margin-left: 30px;
+}
+
+.course-heading {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Montserrat;
+  color: #283C55;
+  margin-left: 10px;
+
+}
+
+.icon-text {
+  display: flex;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  position: relative;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: #FFFFFF4D;
+}
+
+.btn:hover {
+  background-color: #FF912C
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: #283C55;
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #FFFFFF99;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+
+@media (max-width: 858px) {
+  .inner-dash {
+    background-color: white;
+    border-radius: 8px;
+    margin: 0 auto;
+    height: 90%;
+    width: 85%;
+    margin-left: 30px;
+  }
+
+  .icon-text {
+    display: grid;
+    margin: 0 auto;
+  }
+}

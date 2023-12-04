@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-exlpor {
+  background: #283C55;
+}
+
+.explor {
+  color: #FFF;
+  font-family: Fuggles;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.nav-explor {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+
+}
+
+.nav-explor:hover {
+  color: white;
+}
+
+@media (max-width: 858px) {
+  .nav-explor {
+    display: grid;
+    justify-content: center;
+    gap: 5px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.line {
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  color: white;
+}
+
+.icon-expo {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.gallery {
+  width: 100%;
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+}
+
+@media (max-width: 1200px) {
+  .gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  }
+}
+
+@media (max-width: 800px) {
+  .gallery {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery-wrapper {
+    padding: 30px;
+  }
+
+  .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+}
+
+
+
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  margin: 5px auto;
+  cursor: pointer;
+}
+
+.gallery-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 90px;
+}
+.file-upload{
+  display: block !important;
+z-index: 1000;
+visibility: visible
+}
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;900&display=swap");
+
+
+
+.myGallery {
+  font-size: 1rem;
+}

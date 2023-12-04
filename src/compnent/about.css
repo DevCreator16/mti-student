@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-exlpor {
+    background: #283C55;
+}
+
+.explor {
+    color: #FFF;
+    font-family: Fuggles;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.nav-explor {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.nav-explor:hover {
+    color: white;
+}
+
+@media (max-width: 858px) {
+    .nav-explor {
+        display: grid;
+        justify-content: center;
+        gap: 5px;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.line {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+.about-self{
+    margin-left: 200px;
+    margin-right: 50px;
+}
+.grid-thirds {
+
+    
+    display: grid;
+
+    grid-template-columns: 1fr 1fr ;
+    
+
+}
+
+.container-2 {
+    color: white;
+    
+}
+.self-text{
+    margin-left: -80px;
+}
+
+.icon-expo {
+    font-size: 13px;
+}
+.self-des{
+ margin-Right: 10px;
+  margin-Left: -80px 
+}
+.container-1{
+    width: 70%;
+}
+@media (max-width: 858px) {
+    .grid-thirds{
+        display: block;
+    }
+    .container-1{
+        width: 70%;
+        margin-left: -70px;
+        margin-bottom: 10px;
+    }
+    .self-des{
+        width: auto;
+        margin-left: -100px;
+    }
+}
