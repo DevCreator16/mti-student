@@ -36,6 +36,7 @@ export default function Blog() {
     setImage(e.target.files[0]);
   };
   const Id = localStorage.getItem("info1");
+  const token =localStorage.getItem("token");
   const handleFormSubmit =  async (e) => {
     e.preventDefault();
 
@@ -49,8 +50,11 @@ export default function Blog() {
     try {
       const response = await axios.post(
         "http://195.35.37.213:1337/api/v1/blog",
-        formData
-      );
+        formData, {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },});
+      
 
       console.log(response.data);
       window.location.reload();

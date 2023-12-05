@@ -33,6 +33,7 @@ export default function Tatoos() {
   useEffect(() => {
     const stId = localStorage.getItem("info1");
     const tato = "tatoos";
+    const token=localStorage.getItem("token");
  if(!selectedImas){
   console.log('no image select right now');
  }
@@ -54,9 +55,12 @@ export default function Tatoos() {
       
         const response = await axios.post(
           "http://195.35.37.213:1337/api/v1/portfolio",
-          formData
+          formData, {
+            headers: {
+              Authorization: `Bearer ${token}`,
+            },});
           
-        );
+      
 
         console.log(response.data);
         window.location.reload();

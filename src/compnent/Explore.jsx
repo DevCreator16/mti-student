@@ -35,6 +35,7 @@ const {username}=useParams;
   useEffect(() => {
     const stId = localStorage.getItem("info1");
     const art = "art";
+    const token = localStorage.getItem("token")
  if(!selectedImags){
   console.log('no image select right now');
  }
@@ -56,9 +57,12 @@ const {username}=useParams;
       
         const response = await axios.post(
           "http://195.35.37.213:1337/api/v1/portfolio",
-          formData
+          formData, {
+            headers: {
+              Authorization: `Bearer ${token}`,
+            },});
           
-        );
+        
 
         console.log(response.data);
         window.location.reload();
@@ -80,8 +84,16 @@ const {username}=useParams;
   const [images, setImages] = useState([]);
   const [category, setCategory] = useState("art");
   const stI= localStorage.getItem("username");
+  const token1=localStorage.getItem("token");
   const fetchImagesByCategory = () => {
-    fetch(`http://195.35.37.213:1337/api/v1/portfolio/category/${category}/student/${stI}`)
+    fetch(`http://195.35.37.213:1337/api/v1/portfolio/category/${category}/student/${stI}`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${token1}`,
+       
+      },
+    })
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);

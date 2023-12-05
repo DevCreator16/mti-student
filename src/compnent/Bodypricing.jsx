@@ -37,6 +37,7 @@ export default function Bodypricing() {
   useEffect(() => {
     const stId = localStorage.getItem("info1");
     const body = "bodypercing";
+    const token=localStorage.getItem("token");
  if(!selectedIma){
   console.log('no image select right now');
  }
@@ -58,9 +59,12 @@ export default function Bodypricing() {
       
         const response = await axios.post(
           "http://195.35.37.213:1337/api/v1/portfolio",
-          formData
+          formData, {
+            headers: {
+              Authorization: `Bearer ${token}`,
+            },});
           
-        );
+        
 
         console.log(response.data);
         window.location.reload();
