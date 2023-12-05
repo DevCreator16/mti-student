@@ -48,6 +48,7 @@
     width: 100%;
     outline: none;
     border: none;
+    padding: 10px;
     text-decoration: none;
 }
 .p-imgbtn:hover{
@@ -201,5 +202,5 @@
     /* Adjust the width as needed */
     height: 700px;
     /* Adjust the height as needed */
-    overflow: auto;
+    overflow:auto;
 }

@@ -219,7 +219,7 @@ export default function Dash() {
                   </div>
                 </div>
                 <div>
-                  <h2 className="group-title">My Group</h2>
+                  {/* <h2 className="group-title">My Group</h2>
                   <div className="course-summary">
                     <div>
                       <div className="group-list">
@@ -286,7 +286,7 @@ export default function Dash() {
                         </a>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

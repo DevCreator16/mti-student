@@ -67,6 +67,7 @@ export default function Home() {
                 <button className="p-imgbtn"><Link className="p-imgbtn" to={`/${sername}/explore`}>View Portfolio</Link></button>
               </div>
             </div>
+            <p style={{marginTop:'10px'}}></p>
             <div className="my-groups">
               <div className="groups">
                 <h6 className="group-name">My Groups</h6>
